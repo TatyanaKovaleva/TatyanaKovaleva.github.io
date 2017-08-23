@@ -277,7 +277,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/236x/83/a0/86/83a086d78626c088ae37ed51cef2f34b.jpg");
+  background-image: url("https://www.decorel.by/wp-content/uploads/2015/03/thumb_02245.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -340,13 +340,14 @@ body {
 .card .card-content p {
   margin: 0;
   color: inherit;
-}
+  }
 
 .card .card-content .card-title {
   line-height: 48px;
+  text-align: center;
 }
 
-
+ 
 /*------------------------------------------------------------
   Buttons/Components
 ------------------------------------------------------------*/
@@ -424,6 +425,7 @@ button:focus,
 ul,
 ol {
   list-style: none;
+  text-align: none;
 }
 
 
@@ -450,7 +452,7 @@ ol {
 
 .site-header .header-badge {
   border-radius: 50%;
-  border: 12px #fff solid;
+  border: 2px #fff solid;
   height: 200px;
   width: 200px;
   background: url("https://clarkhacks.github.io/a/img/resume/download.svg") center center no-repeat #fff;
@@ -497,7 +499,7 @@ ol {
 
 .page-content .top p.description {
   font-size: 2rem;
-  text-align: left;
+  text-align: center; 
 }
 
 .say-body {
@@ -510,7 +512,7 @@ ol {
   display: block;
   width: 100%;
   border-bottom: #EF6C00 solid 1px;
-}
+  }
 
 .page-content .posts .post-list {
   margin: 0;
@@ -518,26 +520,26 @@ ol {
 }
 
 .page-content .posts .post-list li {
-  padding: 15px 0;
+  /* padding: 15px 0; */
   border-bottom: #ddd solid 1px;
-}
+  }
 
 .page-content .posts .post-list li .post-meta {
   float: right;
   color: #ccc;
   font-size: 14px;
-}
+  }
 
 .page-content .posts .post-list li a {
   text-decoration: none;
   color: #333;
   font-size: 21px;
-}
+  }
 
 .page-content .posts .rss-subscribe {
   text-align: center;
   margin-top: 15px;
-}
+  }
 
 .page-content .posts .rss-subscribe a {
   text-decoration: none;
@@ -563,3 +565,41 @@ ol {
     width: 96%;
   }
 }
+/* new skills */ */
+body {
+  background-color: #030309;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+}
+
+#c {
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 25px;
+}
+
+.pentagon {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 3px 3px 28px 3px;
+  display:inline-block;
+}
+
+
+/*   more
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+} */
+
